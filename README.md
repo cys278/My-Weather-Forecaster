@@ -125,4 +125,10 @@ To make the app functional, replace the placeholder API keys in the `script.js` 
 
 ---
 
+## Author
+
+- **Name**: Chowdhury Yasir
+
+
+
 
