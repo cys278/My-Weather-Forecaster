@@ -1,6 +1,6 @@
-const apiKey = 'ffa12506c18dcdcdb77a7af167eb06fb'; // OpenWeather API key for current weather
-const geocodeApiKey = '60f95d80e3f04f6099b533df7a66986b'; // Geocoding API key for current location
-const hourlyForecastApiKey = '6ee0c3e5ab3c436693312951243010'; // WeatherAPI key for hourly forecast and weekly forecast
+const apiKey = 'your_openweather_api_key';; // use your openweather api key
+const geocodeApiKey = 'your_opencage_api_key'; // use your geocode api key
+const hourlyForecastApiKey = 'your_weatherapi_key'; // use your weather api key
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const geocodeApiUrl = 'https://api.opencagedata.com/geocode/v1/json';
 const hourlyApiUrl = `https://api.weatherapi.com/v1/forecast.json`;
