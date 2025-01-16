@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+     <!-- Loader for data fetching -->
+     <div class="loader" id="loader" style="display: none;"></div>
+
+    <!-- Separate section for Current Location Weather on the top right -->
+    <div class="current-location-weather">
+        <h3>Current Location Weather</h3>
+        <p id="current-location"></p>
+        <p id="current-temp"></p>
+        <p id="current-description"></p>
+        <img id="current-weather-icon" alt="Current Location Weather Icon" style="display: none;">
+    </div>
+
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city" autocomplete="off">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="weatherIcon" alt="Weather Icon" style="display: none;">
+            <p id="feelsLike"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <p id="pressure"></p>
+            <p id="visibility"></p>
+            <p id="sunrise"></p>
+            <p id="sunset"></p>
+            <p id="error-message" style="color: red;"></p>
+        </div>
+         <!-- New hourly forecast container -->
+    <div id="hourly-forecast" class="hourly-forecast"></div>
+    <!-- Weekly Forecast Section -->
+    <div id="weekly-forecast" class="forecast-container"></div>
+
+  
+
+    </div>
+
+   
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
